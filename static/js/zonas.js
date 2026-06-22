@@ -1,3 +1,7 @@
+// ============================================================
+// zonas.js - Gestión de zonas rojas (círculos más grandes)
+// ============================================================
+
 window.GPSZonas = {
     cargar: cargarZonas,
     mostrar: mostrarZonas,
@@ -9,6 +13,7 @@ async function cargarZonas() {
     try {
         const respuesta = await solicitarJson("/api/zones");
         GPS.zonas = respuesta.data || [];
+        console.log(`Zonas cargadas: ${GPS.zonas.length}`);
         if (GPS.zonasVisibles) {
             dibujarZonas();
         }
@@ -37,8 +42,14 @@ function ocultarZonas() {
 
 function dibujarZonas() {
     if (!GPS.mapa) {
+        console.warn("GPS.mapa no está definido, no se pueden dibujar zonas.");
         return;
     }
+    if (!GPS.zonas || GPS.zonas.length === 0) {
+        console.warn("No hay zonas para dibujar.");
+        return;
+    }
+
     limpiarCapasZonas();
 
     GPS.zonas.forEach((zona) => {
@@ -46,43 +57,48 @@ function dibujarZonas() {
             lat: Number(zona.lat),
             lng: Number(zona.lng),
         };
-        const radio = Number(zona.radius_m);
+        // Multiplicamos el radio por 2.5 para hacer las zonas más grandes
+        const radioBase = Number(zona.radius_m) || 500;
+        const radioGrande = radioBase * 2.5;
+
         if (!Number.isFinite(posicion.lat) || !Number.isFinite(posicion.lng)) {
+            console.warn("Zona con coordenadas inválidas:", zona);
             return;
         }
 
         const circulo = new google.maps.Circle({
             map: GPS.mapa,
             center: posicion,
-            radius: Number.isFinite(radio) ? radio : 500,
-            fillColor: "#dc2626",
-            fillOpacity: 0.16,
-            strokeColor: "#b91c1c",
-            strokeOpacity: 0.8,
-            strokeWeight: 2,
+            radius: radioGrande,
+            fillColor: "#FF0000",
+            fillOpacity: 0.30,           // Visible pero transparente
+            strokeColor: "#CC0000",
+            strokeOpacity: 0.9,
+            strokeWeight: 3,             // Borde más grueso
         });
+
         const marcador = new google.maps.Marker({
             map: GPS.mapa,
             position: posicion,
+            visible: false,
             title: zona.name,
-            label: { text: "!", color: "white", fontWeight: "bold" },
-            icon: {
-                path: google.maps.SymbolPath.CIRCLE,
-                fillColor: "#c62828",
-                fillOpacity: 1,
-                strokeColor: "#ffffff",
-                strokeWeight: 2,
-                scale: 11,
-            },
         });
-        marcador.addListener("click", () => abrirDialogoZona(zona));
+
         circulo.addListener("click", () => abrirDialogoZona(zona));
+        marcador.addListener("click", () => abrirDialogoZona(zona));
+
         GPS.capasZonas.push(circulo, marcador);
     });
+
+    console.log(`Zonas dibujadas: ${GPS.zonas.length}`);
 }
 
 function limpiarCapasZonas() {
-    GPS.capasZonas.forEach((capa) => capa.setMap(null));
+    GPS.capasZonas.forEach((capa) => {
+        if (capa && capa.setMap) {
+            capa.setMap(null);
+        }
+    });
     GPS.capasZonas = [];
 }
 

@@ -13,7 +13,7 @@
     "description": "Sector de alta densidad con disputas por control territorial y redes de extorsion.",
     "lat": 16.8919,
     "lng": -99.8239,
-    "radius_m": 1600
+    "radius_m": 1600.0
   },
   {
     "id": "gro-acapulco-emiliano-zapata",
@@ -28,7 +28,7 @@
     "description": "Zona prioritaria por enfrentamientos recurrentes y coaccion economica sobre comercios.",
     "lat": 16.8981,
     "lng": -99.8339,
-    "radius_m": 1500
+    "radius_m": 1500.0
   },
   {
     "id": "gro-acapulco-progreso",
@@ -43,7 +43,7 @@
     "description": "Corredor comercial con reportes de extorsion y robos violentos.",
     "lat": 16.8585,
     "lng": -99.8955,
-    "radius_m": 1100
+    "radius_m": 1100.0
   },
   {
     "id": "gro-acapulco-el-coloso",
@@ -58,7 +58,7 @@
     "description": "Conjunto habitacional expuesto a disputas de pandillas y grupos criminales.",
     "lat": 16.8333,
     "lng": -99.8167,
-    "radius_m": 1400
+    "radius_m": 1400.0
   },
   {
     "id": "gro-acapulco-la-laja",
@@ -73,7 +73,7 @@
     "description": "Zona de laderas y accesos complejos que dificultan la vigilancia.",
     "lat": 16.8615,
     "lng": -99.8851,
-    "radius_m": 1000
+    "radius_m": 1000.0
   },
   {
     "id": "gro-acapulco-jardin-mangos",
@@ -88,7 +88,7 @@
     "description": "Area vulnerable del poniente con violencia ligada a delincuencia organizada.",
     "lat": 16.8845,
     "lng": -99.9575,
-    "radius_m": 1200
+    "radius_m": 1200.0
   },
   {
     "id": "gro-acapulco-carabali",
@@ -103,7 +103,7 @@
     "description": "Zona critica por incremento de hechos violentos y homicidios.",
     "lat": 16.8672,
     "lng": -99.8992,
-    "radius_m": 900
+    "radius_m": 900.0
   },
   {
     "id": "gro-acapulco-centro",
@@ -118,7 +118,7 @@
     "description": "Zona turistica y comercial con extorsion, cierres de negocios y ataques armados.",
     "lat": 16.8494,
     "lng": -99.9088,
-    "radius_m": 1000
+    "radius_m": 1000.0
   },
   {
     "id": "gro-chilpancingo-los-angeles",
@@ -133,7 +133,7 @@
     "description": "Foco rojo prioritario en el sector oriente de la ciudad.",
     "lat": 17.5575,
     "lng": -99.491,
-    "radius_m": 1100
+    "radius_m": 1100.0
   },
   {
     "id": "gro-chilpancingo-obrera",
@@ -148,7 +148,7 @@
     "description": "Sector poniente con reportes constantes de asaltos y robos violentos.",
     "lat": 17.562,
     "lng": -99.5085,
-    "radius_m": 1050
+    "radius_m": 1050.0
   },
   {
     "id": "gro-chilpancingo-pri",
@@ -163,7 +163,7 @@
     "description": "Zona vulnerable por barrancas, areas oscuras y despojo vehicular.",
     "lat": 17.5455,
     "lng": -99.518,
-    "radius_m": 1100
+    "radius_m": 1100.0
   },
   {
     "id": "gro-chilpancingo-el-amate",
@@ -178,7 +178,7 @@
     "description": "Colonia del norte considerada critica por enfrentamientos asociados al narcomenudeo.",
     "lat": 17.578,
     "lng": -99.502,
-    "radius_m": 1100
+    "radius_m": 1100.0
   },
   {
     "id": "gro-iguala-san-jose",
@@ -193,7 +193,7 @@
     "description": "Sector con balaceras y atentados directos de alto impacto.",
     "lat": 18.3485,
     "lng": -99.529,
-    "radius_m": 1100
+    "radius_m": 1100.0
   },
   {
     "id": "gro-iguala-capire",
@@ -208,7 +208,7 @@
     "description": "Foco rojo periferico con hallazgos de victimas de ejecuciones.",
     "lat": 18.337,
     "lng": -99.544,
-    "radius_m": 1100
+    "radius_m": 1100.0
   },
   {
     "id": "gro-iguala-centro",
@@ -223,7 +223,7 @@
     "description": "Corredor comercial bajo presion de delincuencia organizada.",
     "lat": 18.3435,
     "lng": -99.5375,
-    "radius_m": 1000
+    "radius_m": 1000.0
   },
   {
     "id": "gro-iguala-el-naranjo",
@@ -238,7 +238,7 @@
     "description": "Localidad rural periferica identificada como punto de riesgo.",
     "lat": 18.305,
     "lng": -99.723,
-    "radius_m": 1500
+    "radius_m": 1500.0
   },
   {
     "id": "mex-ecatepec-ciudad-cuauhtemoc",
@@ -253,7 +253,7 @@
     "description": "Zona prioritaria por marginacion, violencia intrafamiliar y agresiones de genero.",
     "lat": 19.605,
     "lng": -99.006,
-    "radius_m": 1500
+    "radius_m": 1500.0
   },
   {
     "id": "mex-ecatepec-jardines-morelos",
@@ -268,7 +268,7 @@
     "description": "Barrio prioritario por crimenes violentos de genero y asaltos.",
     "lat": 19.596,
     "lng": -99.015,
-    "radius_m": 1400
+    "radius_m": 1400.0
   },
   {
     "id": "mex-ecatepec-las-americas",
@@ -283,7 +283,7 @@
     "description": "Zona habitacional y vial con alta incidencia de robo vehicular violento.",
     "lat": 19.598,
     "lng": -99.032,
-    "radius_m": 1300
+    "radius_m": 1300.0
   },
   {
     "id": "mex-ecatepec-hank-gonzalez",
@@ -298,7 +298,7 @@
     "description": "Sector periferico con problemas de iluminacion y vigilancia.",
     "lat": 19.551,
     "lng": -99.055,
-    "radius_m": 1300
+    "radius_m": 1300.0
   },
   {
     "id": "mex-ecatepec-chiconautla",
@@ -313,7 +313,7 @@
     "description": "Sector prioritario por delincuencia organizada y atracos a comercios.",
     "lat": 19.613,
     "lng": -99.018,
-    "radius_m": 1400
+    "radius_m": 1400.0
   },
   {
     "id": "mex-ecatepec-santa-clara",
@@ -328,7 +328,7 @@
     "description": "Zona industrial y comercial con robo a transeuntes y vehiculos.",
     "lat": 19.563,
     "lng": -99.066,
-    "radius_m": 1300
+    "radius_m": 1300.0
   },
   {
     "id": "gua-celaya-san-miguel-octopan",
@@ -343,7 +343,7 @@
     "description": "Foco rojo rural con confrontaciones armadas y ataques contra locales.",
     "lat": 20.5741,
     "lng": -100.7477,
-    "radius_m": 1700
+    "radius_m": 1700.0
   },
   {
     "id": "gua-celaya-santa-rita",
@@ -358,7 +358,7 @@
     "description": "Sector urbano conflictivo con agresiones armadas e incendios intencionales.",
     "lat": 20.542,
     "lng": -100.825,
-    "radius_m": 1300
+    "radius_m": 1300.0
   },
   {
     "id": "gua-leon-brisas-campestre",
@@ -373,7 +373,7 @@
     "description": "Colonia identificada como una de las zonas delictivas prioritarias del Bajio.",
     "lat": 21.165,
     "lng": -101.761,
-    "radius_m": 1500
+    "radius_m": 1500.0
   },
   {
     "id": "sin-culiacan-alturas-sur",
@@ -388,7 +388,7 @@
     "description": "Complejo habitacional con alta incidencia de violencia y robos a propiedad.",
     "lat": 24.761,
     "lng": -107.362,
-    "radius_m": 1500
+    "radius_m": 1500.0
   },
   {
     "id": "sin-culiacan-centro",
@@ -403,7 +403,7 @@
     "description": "Nucleo economico expuesto a robos de vehiculos y comercios.",
     "lat": 24.808,
     "lng": -107.394,
-    "radius_m": 1200
+    "radius_m": 1200.0
   },
   {
     "id": "sin-culiacan-21-marzo",
@@ -418,7 +418,7 @@
     "description": "Zona con violencia armada y ataques directos en via publica.",
     "lat": 24.781,
     "lng": -107.368,
-    "radius_m": 1300
+    "radius_m": 1300.0
   },
   {
     "id": "sin-culiacan-el-ranchito",
@@ -433,7 +433,7 @@
     "description": "Foco rojo periferico utilizado para abandono de victimas.",
     "lat": 24.731,
     "lng": -107.355,
-    "radius_m": 1600
+    "radius_m": 1600.0
   },
   {
     "id": "sin-culiacan-barrancos",
@@ -448,7 +448,7 @@
     "description": "Sector habitacional con robos violentos y agresiones familiares.",
     "lat": 24.755,
     "lng": -107.425,
-    "radius_m": 1500
+    "radius_m": 1500.0
   },
   {
     "id": "bc-tijuana-camino-verde",
@@ -463,7 +463,7 @@
     "description": "Colonia de topografia compleja con violencia ligada al control de puntos de droga.",
     "lat": 32.482,
     "lng": -116.985,
-    "radius_m": 1500
+    "radius_m": 1500.0
   },
   {
     "id": "bc-tijuana-centro",
@@ -478,7 +478,7 @@
     "description": "Distrito turistico y comercial con asaltos y rinas violentas.",
     "lat": 32.533,
     "lng": -117.038,
-    "radius_m": 1200
+    "radius_m": 1200.0
   },
   {
     "id": "bc-tijuana-sanchez-taboada",
@@ -493,7 +493,7 @@
     "description": "Sector periferico con alta incidencia de homicidio doloso.",
     "lat": 32.468,
     "lng": -116.982,
-    "radius_m": 1500
+    "radius_m": 1500.0
   },
   {
     "id": "bc-tijuana-zona-norte",
@@ -508,7 +508,7 @@
     "description": "Colonia fronteriza con violencia asociada a puntos de venta de droga.",
     "lat": 32.537,
     "lng": -117.042,
-    "radius_m": 1000
+    "radius_m": 1000.0
   },
   {
     "id": "bc-tijuana-lomas-taurinas",
@@ -523,7 +523,7 @@
     "description": "Zona accidentada con ataques armados en calles y viviendas.",
     "lat": 32.529,
     "lng": -117.001,
-    "radius_m": 1300
+    "radius_m": 1300.0
   },
   {
     "id": "bc-tijuana-el-soler",
@@ -538,7 +538,7 @@
     "description": "Area del poniente con pugnas por control de accesos y cobros delictivos.",
     "lat": 32.528,
     "lng": -117.062,
-    "radius_m": 1300
+    "radius_m": 1300.0
   },
   {
     "id": "pue-puebla-san-francisco-totimehuacan",
@@ -553,7 +553,7 @@
     "description": "Junta auxiliar periferica identificada como foco rojo prioritario.",
     "lat": 18.965,
     "lng": -98.158,
-    "radius_m": 1600
+    "radius_m": 1600.0
   },
   {
     "id": "pue-puebla-lomas-5-mayo",
@@ -567,7 +567,7 @@
     "description": "Barrio con presencia de bandas locales y muertes violentas.",
     "lat": 19.052,
     "lng": -98.168,
-    "radius_m": 1200
+    "radius_m": 1200.0
   },
   {
     "id": "pue-puebla-san-pablo-xochimehuacan",
@@ -582,7 +582,7 @@
     "description": "Junta auxiliar afectada por bandas delictivas y violencia letal.",
     "lat": 19.083,
     "lng": -98.204,
-    "radius_m": 1500
+    "radius_m": 1500.0
   },
   {
     "id": "pue-puebla-santa-cruz-buenavista",
@@ -597,7 +597,7 @@
     "description": "Foco rojo metropolitano con robos violentos a peatones y transporte.",
     "lat": 19.062,
     "lng": -98.253,
-    "radius_m": 1200
+    "radius_m": 1200.0
   },
   {
     "id": "manual-b81c8b47f397",
@@ -611,5 +611,485 @@
     "lat": 19.7940639,
     "lng": -99.8791596,
     "radius_m": 1000.0
+  },
+  {
+    "id": "bcn-tijuana-camino-verde-nuevo",
+    "name": "Camino Verde (Nuevo)",
+    "municipality": "Tijuana",
+    "state": "Baja California",
+    "risks": [
+      "Homicidios",
+      "Balaceras",
+      "Ejecuciones",
+      "Control territorial"
+    ],
+    "description": "Colonia con alta incidencia de homicidios y enfrentamientos entre grupos criminales por el control de puntos de venta de droga.",
+    "lat": 32.482,
+    "lng": -116.985,
+    "radius_m": 1500.0
+  },
+  {
+    "id": "bcn-tijuana-sanchez-taboada-nuevo",
+    "name": "Sánchez Taboada (Nuevo)",
+    "municipality": "Tijuana",
+    "state": "Baja California",
+    "risks": [
+      "Homicidio doloso",
+      "Extorsión",
+      "Control territorial",
+      "Narcomenudeo"
+    ],
+    "description": "Sector periférico de Tijuana con alta incidencia de homicidios dolosos y disputas territoriales entre células delictivas.",
+    "lat": 32.468,
+    "lng": -116.982,
+    "radius_m": 1500.0
+  },
+  {
+    "id": "bcn-tijuana-el-soler-nuevo",
+    "name": "El Soler (Nuevo)",
+    "municipality": "Tijuana",
+    "state": "Baja California",
+    "risks": [
+      "Disputas territoriales",
+      "Asaltos violentos",
+      "Cobro de piso",
+      "Robo a transporte"
+    ],
+    "description": "Zona del poniente de Tijuana con pugnas por control de accesos y cobros delictivos a comercios y transporte.",
+    "lat": 32.528,
+    "lng": -117.062,
+    "radius_m": 1300.0
+  },
+  {
+    "id": "bcn-tijuana-lomas-taurinas-nuevo",
+    "name": "Lomas Taurinas (Nuevo)",
+    "municipality": "Tijuana",
+    "state": "Baja California",
+    "risks": [
+      "Ejecuciones",
+      "Tiroteos",
+      "Delincuencia organizada",
+      "Narcomenudeo"
+    ],
+    "description": "Zona accidentada con ataques armados recurrentes en calles y viviendas, asociada a grupos del crimen organizado.",
+    "lat": 32.529,
+    "lng": -117.001,
+    "radius_m": 1300.0
+  },
+  {
+    "id": "bcn-tijuana-zona-norte-nuevo",
+    "name": "Zona Norte (Nuevo)",
+    "municipality": "Tijuana",
+    "state": "Baja California",
+    "risks": [
+      "Narcomenudeo",
+      "Balaceras diurnas",
+      "Homicidios",
+      "Trata de personas"
+    ],
+    "description": "Colonia fronteriza con alta actividad de narcomenudeo y violencia asociada a puntos de venta de droga y trata.",
+    "lat": 32.537,
+    "lng": -117.042,
+    "radius_m": 1000.0
+  },
+  {
+    "id": "bcn-tijuana-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Tijuana",
+    "state": "Baja California",
+    "risks": [
+      "Robo con violencia",
+      "Lesiones",
+      "Rina urbana",
+      "Robo a comercio"
+    ],
+    "description": "Distrito turístico y comercial de Tijuana con asaltos violentos y riñas urbanas frecuentes.",
+    "lat": 32.533,
+    "lng": -117.038,
+    "radius_m": 1200.0
+  },
+  {
+    "id": "chih-chihuahua-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Chihuahua",
+    "state": "Chihuahua",
+    "risks": [
+      "Homicidios",
+      "Robo con violencia",
+      "Extorsión",
+      "Narcomenudeo"
+    ],
+    "description": "Chihuahua se colocó como el estado más violento del país con 20 homicidios en el primer fin de semana de 2026.",
+    "lat": 28.635,
+    "lng": -106.088,
+    "radius_m": 1200.0
+  },
+  {
+    "id": "col-colima-centro-nuevo",
+    "name": "Zona Metropolitana (Nuevo)",
+    "municipality": "Colima",
+    "state": "Colima",
+    "risks": [
+      "Violencia generalizada",
+      "Asesinatos selectivos",
+      "Tiroteos",
+      "Secuestros"
+    ],
+    "description": "Colima es considerado por el Departamento de Estado de EE.UU. como uno de los estados más peligrosos, con violencia generalizada y asesinatos vinculados al narcotráfico.",
+    "lat": 19.243,
+    "lng": -103.725,
+    "radius_m": 1500.0
+  },
+  {
+    "id": "col-manzanillo-centro-nuevo",
+    "name": "Zona Portuaria (Nuevo)",
+    "municipality": "Manzanillo",
+    "state": "Colima",
+    "risks": [
+      "Robo de carga",
+      "Extorsión",
+      "Violencia armada",
+      "Control territorial"
+    ],
+    "description": "Zona de alta actividad delictiva por su importancia como puerto comercial, con robos de carga y disputas territoriales.",
+    "lat": 19.052,
+    "lng": -104.316,
+    "radius_m": 1500.0
+  },
+  {
+    "id": "dgo-durango-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Durango",
+    "state": "Durango",
+    "risks": [
+      "Robo a negocio",
+      "Asalto a transeúnte",
+      "Narcomenudeo",
+      "Violencia familiar"
+    ],
+    "description": "Aunque Durango mantiene entornos más seguros que otros estados, presenta focos de violencia en zonas urbanas.",
+    "lat": 24.027,
+    "lng": -104.653,
+    "radius_m": 1200.0
+  },
+  {
+    "id": "gua-celaya-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Celaya",
+    "state": "Guanajuato",
+    "risks": [
+      "Ejecuciones",
+      "Extorsión",
+      "Delincuencia organizada",
+      "Robo a transporte"
+    ],
+    "description": "Celaya es uno de los municipios más violentos de Guanajuato, con ejecuciones y disputas entre grupos criminales.",
+    "lat": 20.522,
+    "lng": -100.812,
+    "radius_m": 1500.0
+  },
+  {
+    "id": "gua-irapuato-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Irapuato",
+    "state": "Guanajuato",
+    "risks": [
+      "Homicidios",
+      "Robo con violencia",
+      "Extorsión",
+      "Narcomenudeo"
+    ],
+    "description": "Irapuato registra altos índices de violencia y disputas territoriales entre grupos criminales.",
+    "lat": 20.675,
+    "lng": -101.355,
+    "radius_m": 1300.0
+  },
+  {
+    "id": "mex-nezahualcoyotl-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Nezahualcóyotl",
+    "state": "Estado de México",
+    "risks": [
+      "Robo con violencia",
+      "Narcomenudeo",
+      "Asalto a transporte",
+      "Violencia intrafamiliar"
+    ],
+    "description": "Ciudad con alta densidad poblacional y altos índices de robos y narcomenudeo.",
+    "lat": 19.405,
+    "lng": -99.015,
+    "radius_m": 1500.0
+  },
+  {
+    "id": "mex-naucalpan-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Naucalpan",
+    "state": "Estado de México",
+    "risks": [
+      "Robo a negocio",
+      "Asalto a transeúnte",
+      "Narcomenudeo",
+      "Robo de vehículo"
+    ],
+    "description": "Zona con alta actividad comercial y delictiva, con robos a negocios y transeúntes.",
+    "lat": 19.478,
+    "lng": -99.237,
+    "radius_m": 1300.0
+  },
+  {
+    "id": "mich-morelia-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Morelia",
+    "state": "Michoacán",
+    "risks": [
+      "Homicidios",
+      "Extorsión",
+      "Narcomenudeo",
+      "Robo con violencia"
+    ],
+    "description": "Michoacán es considerado uno de los estados más peligrosos por la presencia extendida de crimen organizado.",
+    "lat": 19.702,
+    "lng": -101.192,
+    "radius_m": 1500.0
+  },
+  {
+    "id": "mich-uruapan-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Uruapan",
+    "state": "Michoacán",
+    "risks": [
+      "Homicidios",
+      "Extorsión",
+      "Control territorial",
+      "Robo a transporte"
+    ],
+    "description": "Uruapan es un punto crítico por disputas territoriales entre grupos criminales y alta incidencia de homicidios.",
+    "lat": 19.42,
+    "lng": -102.062,
+    "radius_m": 1500.0
+  },
+  {
+    "id": "mor-cuernavaca-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Cuernavaca",
+    "state": "Morelos",
+    "risks": [
+      "Homicidios",
+      "Extorsión",
+      "Robo con violencia",
+      "Narcomenudeo"
+    ],
+    "description": "Morelos es uno de los estados que concentra múltiples delitos asociados al control territorial.",
+    "lat": 18.924,
+    "lng": -99.231,
+    "radius_m": 1500.0
+  },
+  {
+    "id": "nle-monterrey-croc-nuevo",
+    "name": "Colonia CROC (Nuevo)",
+    "municipality": "Monterrey",
+    "state": "Nuevo León",
+    "risks": [
+      "Balaceras",
+      "Enfrentamientos armados",
+      "Robo con violencia",
+      "Narcomenudeo"
+    ],
+    "description": "Escenario de enfrentamientos entre Fuerza Civil y presuntos delincuentes con saldo de oficiales heridos.",
+    "lat": 25.719,
+    "lng": -100.215,
+    "radius_m": 1200.0
+  },
+  {
+    "id": "nle-monterrey-la-risca-nuevo",
+    "name": "La Risca (Nuevo)",
+    "municipality": "Monterrey",
+    "state": "Nuevo León",
+    "risks": [
+      "Violencia generalizada",
+      "Robos",
+      "Homicidios",
+      "Control territorial"
+    ],
+    "description": "Una de las colonias con fama de ser las zonas más peligrosas y violentas de Monterrey.",
+    "lat": 25.7,
+    "lng": -100.25,
+    "radius_m": 1300.0
+  },
+  {
+    "id": "nle-monterrey-la-alianza-nuevo",
+    "name": "La Alianza (Nuevo)",
+    "municipality": "Monterrey",
+    "state": "Nuevo León",
+    "risks": [
+      "Ataques armados",
+      "Homicidios",
+      "Robo con violencia",
+      "Balaceras"
+    ],
+    "description": "Colonia con reportes frecuentes de ataques armados y heridos de bala.",
+    "lat": 25.71,
+    "lng": -100.22,
+    "radius_m": 1200.0
+  },
+  {
+    "id": "pue-puebla-la-paz-nuevo",
+    "name": "La Paz (Nuevo)",
+    "municipality": "Puebla",
+    "state": "Puebla",
+    "risks": [
+      "Narcomenudeo",
+      "Balaceras",
+      "Robo con violencia",
+      "Homicidios"
+    ],
+    "description": "Colonia que pasó de ser zona exclusiva a foco rojo por narcomenudeo y balaceras.",
+    "lat": 19.04,
+    "lng": -98.2,
+    "radius_m": 1300.0
+  },
+  {
+    "id": "sin-mazatlan-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Mazatlán",
+    "state": "Sinaloa",
+    "risks": [
+      "Robo a turista",
+      "Asalto a transeúnte",
+      "Narcomenudeo",
+      "Robo a comercio"
+    ],
+    "description": "Zona turística con incidencia de robos a turistas y narcomenudeo.",
+    "lat": 23.236,
+    "lng": -106.415,
+    "radius_m": 1200.0
+  },
+  {
+    "id": "son-hermosillo-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Hermosillo",
+    "state": "Sonora",
+    "risks": [
+      "Robo con violencia",
+      "Narcomenudeo",
+      "Asalto a negocio",
+      "Robo de vehículo"
+    ],
+    "description": "Zona comercial y urbana con alta incidencia de robos y narcomenudeo.",
+    "lat": 29.1,
+    "lng": -110.97,
+    "radius_m": 1300.0
+  },
+  {
+    "id": "tab-villahermosa-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Villahermosa",
+    "state": "Tabasco",
+    "risks": [
+      "Homicidios",
+      "Extorsión",
+      "Robo con violencia",
+      "Disputas territoriales"
+    ],
+    "description": "Tabasco es escenario de disputas entre el CJNG y la Barredora.",
+    "lat": 17.987,
+    "lng": -92.919,
+    "radius_m": 1500.0
+  },
+  {
+    "id": "tamps-tampico-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Tampico",
+    "state": "Tamaulipas",
+    "risks": [
+      "Secuestros",
+      "Robos violentos",
+      "Extorsión",
+      "Asaltos a vehículos"
+    ],
+    "description": "Tamaulipas es uno de los estados con mayor riesgo por secuestros, desapariciones y robos violentos.",
+    "lat": 22.216,
+    "lng": -97.853,
+    "radius_m": 1500.0
+  },
+  {
+    "id": "ver-xalapa-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Xalapa",
+    "state": "Veracruz",
+    "risks": [
+      "Robo a negocio",
+      "Asalto a transeúnte",
+      "Narcomenudeo",
+      "Robo de vehículo"
+    ],
+    "description": "Zona con alta incidencia de robos a negocios y transeúntes en el centro de Veracruz.",
+    "lat": 19.54,
+    "lng": -96.927,
+    "radius_m": 1300.0
+  },
+  {
+    "id": "ver-boca-del-rio-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Boca del Río",
+    "state": "Veracruz",
+    "risks": [
+      "Robo a turista",
+      "Asalto a transeúnte",
+      "Narcomenudeo",
+      "Robo a comercio"
+    ],
+    "description": "Zona turística y comercial con robos a turistas y presencia de narcomenudeo.",
+    "lat": 19.105,
+    "lng": -96.107,
+    "radius_m": 1200.0
+  },
+  {
+    "id": "yuc-merida-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Mérida",
+    "state": "Yucatán",
+    "risks": [
+      "Robo a negocio",
+      "Asalto a transeúnte",
+      "Robo de vehículo",
+      "Narcomenudeo"
+    ],
+    "description": "Aunque Yucatán es uno de los estados más seguros, presenta focos delictivos en zonas urbanas.",
+    "lat": 20.967,
+    "lng": -89.592,
+    "radius_m": 1200.0
+  },
+  {
+    "id": "zac-zacatecas-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Zacatecas",
+    "state": "Zacatecas",
+    "risks": [
+      "Violencia",
+      "Extorsiones",
+      "Secuestro",
+      "Homicidios"
+    ],
+    "description": "Zacatecas es considerado uno de los estados más peligrosos por violencia, extorsiones y secuestros.",
+    "lat": 22.77,
+    "lng": -102.583,
+    "radius_m": 1500.0
+  },
+  {
+    "id": "zac-fresnillo-centro-nuevo",
+    "name": "Zona Centro (Nuevo)",
+    "municipality": "Fresnillo",
+    "state": "Zacatecas",
+    "risks": [
+      "Homicidios",
+      "Extorsión",
+      "Robo con violencia",
+      "Control territorial"
+    ],
+    "description": "Fresnillo es uno de los municipios más violentos de Zacatecas, con disputas territoriales y homicidios.",
+    "lat": 23.175,
+    "lng": -102.871,
+    "radius_m": 1500.0
   }
 ]

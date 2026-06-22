@@ -515,85 +515,174 @@ button, input, select, textarea {
     color: var(--color-muted);
 }
 
-/* ===== Diálogo de zona roja ===== */
+/* ===== Diálogo de zona roja (MEJORADO Y CENTRADO) ===== */
 .zone-dialog {
-    width: min(560px, calc(100vw - 20px));
-    max-height: calc(100vh - 20px);
-    overflow-y: auto;
+    width: min(600px, calc(100vw - 24px));
+    max-height: calc(100vh - 40px);
     padding: 0;
     border: none;
-    border-radius: var(--radius);
-    box-shadow: var(--shadow-lg);
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(30, 41, 59, 0.25);
     background: white;
+    margin: auto;
+    overflow: hidden;
 }
 
 .zone-dialog::backdrop {
-    background: rgba(30, 41, 59, 0.35);
-    backdrop-filter: blur(3px);
+    background: rgba(30, 41, 59, 0.4);
+    backdrop-filter: blur(4px);
 }
 
 .zone-dialog form {
-    padding: 20px;
+    padding: 24px 28px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
-.dialog-header {
+.zone-dialog .dialog-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--color-border);
 }
 
-.dialog-header h2 {
+.zone-dialog .dialog-header .eyebrow {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-secondary);
     margin: 0;
 }
 
-.icon-button {
+.zone-dialog .dialog-header h2 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.zone-dialog .dialog-header .icon-button {
     width: 36px;
     height: 36px;
     border: 0;
-    border-radius: 8px;
-    background: transparent;
+    border-radius: 50%;
+    background: var(--color-surface-soft);
     color: var(--color-muted);
     font-size: 1.2rem;
     display: inline-grid;
     place-items: center;
-    transition: background 0.2s;
+    transition: all 0.2s;
+    cursor: pointer;
 }
 
-.icon-button:hover {
-    background: var(--color-surface-soft);
+.zone-dialog .dialog-header .icon-button:hover {
+    background: #e2e8f0;
+    color: var(--color-text);
 }
 
-.two-columns {
+.zone-dialog label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 8px;
+}
+
+.zone-dialog input,
+.zone-dialog textarea,
+.zone-dialog select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    font-size: 0.95rem;
+    background: white;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+    font-family: var(--font);
+}
+
+.zone-dialog input:focus,
+.zone-dialog textarea:focus,
+.zone-dialog select:focus {
+    border-color: var(--color-secondary);
+    box-shadow: 0 0 0 3px rgba(0, 180, 216, 0.15);
+}
+
+.zone-dialog .two-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px;
+    gap: 14px;
 }
 
-.dialog-actions {
+.zone-dialog .small-text {
+    font-size: 0.8rem;
+    color: var(--color-muted);
+    margin-top: 4px;
+    font-style: italic;
+}
+
+.zone-dialog .dialog-actions {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 12px;
     margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--color-border);
 }
 
-.dialog-spacer {
+.zone-dialog .dialog-actions .dialog-spacer {
     flex: 1;
 }
 
-.danger-button {
-    background: var(--color-danger);
-    color: white;
-    border: none;
-    padding: 8px 18px;
+.zone-dialog .dialog-actions button {
+    min-height: 40px;
+    padding: 0 20px;
     border-radius: 40px;
     font-weight: 600;
-    transition: background 0.2s;
+    font-size: 0.85rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
-.danger-button:hover {
+.zone-dialog .dialog-actions .primary-button {
+    background: var(--color-secondary);
+    color: white;
+}
+
+.zone-dialog .dialog-actions .primary-button:hover {
+    background: var(--color-secondary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 180, 216, 0.25);
+}
+
+.zone-dialog .dialog-actions .secondary-button {
+    background: var(--color-surface-soft);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+}
+
+.zone-dialog .dialog-actions .secondary-button:hover {
+    background: #e2e8f0;
+    transform: translateY(-2px);
+}
+
+.zone-dialog .dialog-actions .danger-button {
+    background: var(--color-danger);
+    color: white;
+}
+
+.zone-dialog .dialog-actions .danger-button:hover {
     background: #b91c1c;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(220, 38, 38, 0.25);
 }
 
 /* ===== Panel lateral (fondo #6DD7E8) ===== */
@@ -936,6 +1025,7 @@ button, input, select, textarea {
         flex: 1 1 40%;
     }
 
+    /* Diálogos responsive */
     .zone-dialog,
     .result-dialog {
         width: calc(100vw - 16px);
@@ -947,12 +1037,22 @@ button, input, select, textarea {
         padding: 16px;
     }
 
-    .two-columns {
+    .zone-dialog .two-columns {
         grid-template-columns: 1fr;
-        gap: 10px;
+        gap: 4px;
     }
 
-    .dialog-header h2 {
+    .zone-dialog .dialog-actions {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .zone-dialog .dialog-actions button {
+        flex: 1 1 auto;
+        min-width: 80px;
+    }
+
+    .dialog-header h2,
+    .zone-dialog .dialog-header h2 {
         font-size: 1.1rem;
     }
     .dialog-actions {
